@@ -150,8 +150,8 @@ The dashboard includes:
 ```text
 Adventure-Works-Sales-Analytics/
 │
-├── Adventure_Tableau.twbx
 ├── Adventure_Dataset.zip
+├── Adventure_Tableau.twbx
 ├── Adventure_Works_Dashboard.png
 ├── Adventure_Works_Sales_Dashboard.pbix
 └── README.md
