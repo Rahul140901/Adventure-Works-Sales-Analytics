@@ -161,19 +161,10 @@ Adventure-Works-Sales-Analytics/
 
 # 🚀 Getting Started
 
-1. Clone this repository.
-
-```bash
-git clone https://github.com/Rahul140901/Adventure-Works-Sales-Analytics
-```
-
-2. Open the **Adventure_Works_Sales_Dashboard.pbix** file using **Power BI Desktop**.
-
-3. Explore the interactive dashboard using filters and slicers.
-
-4. (Optional) Open **Adventure_Tableau.twbx** using Tableau Desktop to explore the Tableau version of the dashboard.
-
----
+1. Download the repository.
+2. Open **Adventure_Works_Sales_Dashboard.pbix** using **Power BI Desktop**.
+3. Explore the interactive dashboard using the available filters and slicers.
+4. (Optional) Open **Adventure_Tableau.twbx** using **Tableau Desktop**.
 
 # 🎯 Skills Demonstrated
 
