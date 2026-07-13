@@ -46,7 +46,7 @@ The objective of this project is to help management understand sales performance
 
 # 📊 Dashboard Preview
 
-![Adventure Works Dashboard](ADVENTURE WORKS DASHBOARD.png)
+![Adventure Works Dashboard](Adventure_Works_Dashboard.png)
 
 ---
 
