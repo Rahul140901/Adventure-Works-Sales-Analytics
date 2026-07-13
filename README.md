@@ -25,12 +25,12 @@ The objective of this project is to help management understand sales performance
 
 | Category | Tools |
 |----------|-------|
-| Business Intelligence | Power BI |
+| Business Intelligence | Power BI | Tableau |
 | Data Visualization | Tableau |
 | Data Transformation | Power Query |
 | Calculations | DAX |
 | Dataset | Excel / CSV |
-| Reporting | Power BI |
+| Reporting | Power BI | Tableau |
 
 ---
 
@@ -118,12 +118,11 @@ Data preparation included:
 ```text
 Adventure-Works-Sales-Analytics/
 │
-├── README.md
-├── Adventure_Works_Sales_Dashboard.pbix
+├── Adventure_Tableau.twbx
+├── Adventure_Dataset.zip 
 ├── Adventure_Works_Dashboard.png
-├── Adventure_Dataset.zip
-├── Adventure_Tableau.twb
-└── Adventure_Tableau.twbx
+├── Adventure_Works_Sales_Dashboard.pbix
+└── README.md 
 ```
 
 ---
@@ -138,7 +137,7 @@ git clone https://github.com/yourusername/Adventure-Works-Sales-Analytics.git
 
 2. Open the Power BI dashboard using **Power BI Desktop**.
 
-3. Open Tableau files using **Tableau Desktop**.
+3. Open the Tableau files using **Tableau Desktop**.
 
 4. Explore the interactive dashboards.
 
