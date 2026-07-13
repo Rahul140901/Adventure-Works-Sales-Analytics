@@ -164,7 +164,7 @@ Adventure-Works-Sales-Analytics/
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/yourusername/Adventure-Works-Sales-Analytics.git
+git clone https://github.com/Rahul140901/Adventure-Works-Sales-Analytics
 ```
 
 2. Open the **Adventure_Works_Sales_Dashboard.pbix** file using **Power BI Desktop**.
