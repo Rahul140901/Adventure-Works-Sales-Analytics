@@ -1,46 +1,51 @@
-# 📊 Adventure Works Sales Analytics Dashboard | Power BI & Tableau
+# 📊 Adventure Works Sales Analytics Dashboard | Power BI | Tableau
 
 ## 📌 Project Overview
 
-The **Adventure Works Sales Analytics Dashboard** is an interactive Business Intelligence solution developed using **Power BI** and **Tableau** to analyze sales performance, customer behavior, product trends, and business profitability.
+The **Adventure Works Sales Analytics Dashboard** is an interactive Business Intelligence solution developed using **Power BI** to analyze sales performance, customer distribution, regional sales, product performance, and profitability.
 
-The dashboard converts raw sales data into meaningful visual insights, enabling business stakeholders to monitor KPIs and make data-driven decisions.
-
----
-
-## 🎯 Business Objective
-
-The objective of this project is to help management understand sales performance by answering key business questions:
-
-- How much revenue is generated?
-- Which products generate the highest sales?
-- Which customer segments contribute the most revenue?
-- How are sales distributed across regions?
-- Which product categories perform best?
-- What trends can be observed over time?
+The dashboard transforms raw sales data into actionable business insights through interactive visualizations, KPI cards, and dynamic filters, enabling business stakeholders to monitor performance and support data-driven decision-making.
 
 ---
 
-## 🛠 Tech Stack
+# 🎯 Business Objective
+
+The objective of this project is to analyze Adventure Works sales data and answer important business questions such as:
+
+- What is the overall sales performance?
+- Which regions generate the highest sales?
+- How has sales performance changed over the years?
+- Which products contribute the highest revenue?
+- What is the relationship between sales and production cost?
+- How do quarterly sales compare?
+- How many customers contribute to total sales?
+
+---
+
+# 🛠 Tech Stack
 
 | Category | Tools |
 |----------|-------|
 | Business Intelligence | Power BI | Tableau |
-| Data Visualization | Tableau |
 | Data Transformation | Power Query |
+| Data Modeling | Power BI Data Model |
 | Calculations | DAX |
-| Dataset | Excel / CSV |
-| Reporting | Power BI | Tableau |
+| Dataset | Adventure Works Dataset |
+| Visualization | Power BI | Tableau |
 
 ---
 
-# 📂 Dataset
+# 📂 Dataset Information
 
-- Adventure Works Sales Dataset
-- Customer Data
-- Product Data
+The project uses the **Adventure Works** sales dataset, which contains:
+
+- Customer Information
+- Product Details
 - Sales Transactions
-- Geographic Information
+- Sales Territory
+- Date Dimension
+- Product Cost
+- Sales Amount
 
 ---
 
@@ -50,66 +55,93 @@ The objective of this project is to help management understand sales performance
 
 ---
 
-# 📈 Dashboard Features
+# 📈 Key Performance Indicators (KPIs)
 
-- Executive Sales Overview
-- Revenue Analysis
-- Profit Analysis
-- Customer Analysis
-- Product Performance
-- Geographic Sales Analysis
-- Time Intelligence
-- Interactive Filters & Slicers
+| KPI | Value |
+|------|-------|
+| 💰 Total Sales | 29.36M |
+| 📈 Total Profit | 12.08M |
+| 👥 Total Customers | 18.48K |
 
 ---
 
-# 📊 KPIs
+# 📊 Dashboard Features
 
-- Total Revenue
-- Total Profit
-- Total Orders
-- Total Customers
-- Sales Growth
-- Profit Margin
+### 🌍 Regional Sales Analysis
+
+- Sales by Sales Territory
+- Region-wise Performance Comparison
+
+### 📅 Year-wise Sales Analysis
+
+- Annual Sales Trend (2010–2014)
+
+### 📆 Month-wise Sales Trend
+
+- Monthly Sales Performance
+- Sales Trend Analysis
+
+### 📦 Product Performance
+
+- Top-Selling Products
+- Product-wise Sales Comparison
+
+### 💵 Sales vs Production Cost Analysis
+
+- Compare Sales Revenue with Product Standard Cost
+- Analyze Business Profitability
+
+### 🥧 Quarter-wise Sales Distribution
+
+- Quarterly Sales Contribution
+- Sales Percentage by Quarter
+
+### 🎛 Interactive Filters
+
+- Sales Territory Region
+- Quarter
+- Year
 
 ---
 
-# 🔄 Data Preparation
+# 🔄 Data Cleaning & Transformation
 
-The dataset was transformed using **Power Query**.
+The dataset was prepared using **Power Query**.
 
 Data preparation included:
 
-- Data Cleaning
-- Removing Duplicate Records
-- Handling Missing Values
-- Data Type Conversion
-- Data Modeling
-- Relationship Building
-- Creating Calculated Columns
+- Removing duplicate records
+- Handling missing values
+- Changing data types
+- Creating relationships
+- Building the data model
+- Creating calculated columns
+- Preparing the dataset for reporting
 
 ---
 
-# 📊 Visualizations Used
+# 📊 Data Visualizations
+
+The dashboard includes:
 
 - KPI Cards
-- Bar Charts
-- Line Charts
-- Donut Charts
-- Maps
-- Tables
-- Slicers
+- Clustered Bar Charts
+- Line Chart
+- Pie Chart
+- Combo Chart
+- Interactive Slicers
+- Dynamic Filters
 
 ---
 
-# 💡 Business Insights
+# 💡 Key Business Insights
 
-- Identified top-performing products.
-- Compared sales performance across regions.
-- Analyzed customer purchasing behavior.
-- Monitored revenue and profit trends.
-- Identified opportunities for business growth.
-- Created interactive reports for business decision-making.
+- Australia generated the highest sales among all sales territories.
+- Total sales reached **29.36M**, generating **12.08M** in total profit.
+- The business experienced peak sales performance during **2013**.
+- Quarter 4 contributed the highest percentage of annual sales.
+- Touring Bike products generated the highest sales.
+- Sales consistently exceeded production costs, indicating strong business profitability.
 
 ---
 
@@ -119,10 +151,10 @@ Data preparation included:
 Adventure-Works-Sales-Analytics/
 │
 ├── Adventure_Tableau.twbx
-├── Adventure_Dataset.zip 
+├── Adventure_Dataset.zip
 ├── Adventure_Works_Dashboard.png
 ├── Adventure_Works_Sales_Dashboard.pbix
-└── README.md 
+└── README.md
 ```
 
 ---
@@ -132,31 +164,31 @@ Adventure-Works-Sales-Analytics/
 1. Clone this repository.
 
 ```bash
-git clone https://github.com/Rahul140901/Adventure-Works-Sales-Analytics
+git clone https://github.com/yourusername/Adventure-Works-Sales-Analytics.git
 ```
 
-2. Open the Power BI dashboard using **Power BI Desktop**.
+2. Open the **Adventure_Works_Sales_Dashboard.pbix** file using **Power BI Desktop**.
 
-3. Open the Tableau files using **Tableau Desktop**.
+3. Explore the interactive dashboard using filters and slicers.
 
-4. Explore the interactive dashboards.
+4. (Optional) Open **Adventure_Tableau.twbx** using Tableau Desktop to explore the Tableau version of the dashboard.
 
 ---
 
 # 🎯 Skills Demonstrated
 
-- Business Intelligence
 - Power BI
 - Tableau
+- Business Intelligence
 - Dashboard Development
 - Data Visualization
 - Data Analysis
-- DAX
 - Power Query
-- Data Cleaning
+- DAX
 - Data Modeling
 - KPI Reporting
 - Interactive Reporting
+- Business Analytics
 
 ---
 
@@ -174,4 +206,4 @@ https://www.linkedin.com/in/rahul-shewale-190039315/
 
 ---
 
-⭐ If you found this project useful, please consider giving it a star.
+## ⭐ If you found this project helpful, please consider giving it a star!
